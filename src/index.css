@@ -1,0 +1,35 @@
+:root {
+  color-scheme: light;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #fffdfb;
+  color: #1a1a1a;
+}
+
+input, select, textarea, button {
+  font-family: inherit;
+  font-size: 0.9rem;
+  padding: 6px 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+button {
+  background: #b4530a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:disabled { opacity: 0.6; cursor: not-allowed; }
+
+a { color: #b4530a; }
+
+table { width: 100%; }
+th, td { padding: 4px 6px; }
